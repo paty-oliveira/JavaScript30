@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+}
+
+#btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: green;
+  border: solid 2px green;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#btn:hover {
+  opacity: 0.5;
+}
+
+.cleaning {
+  padding: 2rem;
+}
