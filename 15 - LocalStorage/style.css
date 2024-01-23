@@ -32,6 +32,12 @@ svg {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.wrapper-btn {
+  padding: 1rem 0rem 0 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 h2 {
   text-align: center;
   margin: 0;
@@ -74,8 +80,10 @@ h2 {
   margin-top: 20px;
 }
 
-.add-items input {
+.add-items input,
+.btn {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
